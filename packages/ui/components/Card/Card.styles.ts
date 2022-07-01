@@ -33,7 +33,7 @@ const CardCategory = styled.h3`
     text-transform: uppercase;
     line-height: 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    letter-spacing: 0px;
+    letter-spacing: 0.15px;
     margin-bottom: 8px;
 `
 
@@ -66,19 +66,6 @@ const CardImage = styled.div`
     margin-bottom: 16px;
     border-radius: 10px;
 `
-const CardAvatar = styled.div`
-    display: grid;
-    grid-template-columns: auto;
-    grid-column-gap: 8px;
-`
-const AvatarText = styled.div`
-
-`
-
-const AvatarName = styled.p`
-
-`
-
 
 const AvatarImage = styled.img` 
     background-image: url(https://images.unsplash.com/photo-1598331668826-20cecc596b86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80);
@@ -91,10 +78,7 @@ const AvatarImage = styled.img`
 `
 export const CardLayout = Object.assign({},{
     Cards,
-    AvatarText,
     AvatarImage,
-    AvatarName,
-    CardAvatar,
     CardTitle,
     CardContainer,
     CardImage,

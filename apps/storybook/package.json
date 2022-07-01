@@ -17,6 +17,7 @@
     "babel-loader": "^8.2.5"
   },
   "dependencies": {
+    "storybook-addon-pseudo-states": "^1.15.1",
     "styled-components": "^5.3.5"
   },
   "scripts": {
