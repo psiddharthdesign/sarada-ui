@@ -5,5 +5,5 @@ const ProgressBarContainer = styled.div`
 `
 
 export const ProgressBarLayout = Object.assign({},{
-    ProgressBarContainer,
+    ProgressBarContainer, 
 })

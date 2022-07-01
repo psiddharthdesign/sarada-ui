@@ -5,5 +5,5 @@ export const Button = () => {
             <ButtonLayout.SmBaseButton>Button </ButtonLayout.SmBaseButton>
             <ButtonLayout.SmOutlineButton>Button Outline</ButtonLayout.SmOutlineButton> 
             <ButtonLayout.SmBaseIconLeftButton>Button Outline</ButtonLayout.SmBaseIconLeftButton> 
-        </ButtonLayout.ButtonContainer>;
+        </ButtonLayout.ButtonContainer>
 };
