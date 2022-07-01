@@ -5,10 +5,9 @@ const CheckboxTitle = styled.h3`
 `
 
 const CheckboxContainer = styled.div`
-    display: inline-block;
+  display: inline-block;
   width: 16px;
   height: 16px;
-
   border-radius: 3px;
   transition: all 150ms;
 `
