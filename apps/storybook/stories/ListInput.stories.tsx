@@ -22,20 +22,20 @@ Primary.args = {
   label: 'ListInput',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'ListInput',
-};
+// export const Secondary = Template.bind({});
+// Secondary.args = {
+//   label: 'ListInput',
+// };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'ListInput',
-};
+// export const Large = Template.bind({});
+// Large.args = {
+//   size: 'large',
+//   label: 'ListInput',
+// };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'ListInput',
-};
+// export const Small = Template.bind({});
+// Small.args = {
+//   size: 'small',
+//   label: 'ListInput',
+// };
 

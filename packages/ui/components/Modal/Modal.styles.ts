@@ -1,9 +1,33 @@
 import styled from 'styled-components'
 
 const ModalTitle = styled.h2`
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0px;
+    letter-spacing: -0.8px;
     color: black;
+`
+const ModalParagraph = styled.p`
+    color: black;
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     margin:0;
-    margin-bottom: 16px;
+    /* margin-top: 8px; */
+`
+
+const ModalDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
 `
 
 const ButtonContainer = styled.div`
@@ -18,8 +42,12 @@ const SmBaseButton = styled.button`
     display: inline;
     color: white;
     border: none;
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.15px;
     padding: 12px 20px;
     border-radius: 8px;
     transition: all 0.2s ease;
@@ -34,8 +62,11 @@ const SmOutlineButton = styled.button`
     border: 1px solid #3538CD;
     background:#ffffff;
     color: black;
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.15px;
     padding: 12px 20px;
     border-radius: 8px;
     transition: all 0.2s ease;
@@ -50,7 +81,7 @@ const SmOutlineButton = styled.button`
 
 const ModalContainer = styled.div`
      /* display: flex; */
-     padding: 16px;
+     padding: 24px;
     /* flex-direction: column; */
     background: white;
     width: 504px;
@@ -58,23 +89,15 @@ const ModalContainer = styled.div`
     align-items: center;
     border: 1px solid rgb(208,213,221);
     border-radius: 8px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     height: auto;
     overflow: hidden;
-`
-const ModalText = styled.p`
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    margin:0;
-    /* margin-top: 8px; */
 `
 
 export const ModalLayout = Object.assign({},{
     ModalTitle,
     ModalContainer,
-    ModalText,
+    ModalParagraph,
+    ModalDiv,
     SmBaseButton,
     SmOutlineButton,
     ButtonContainer

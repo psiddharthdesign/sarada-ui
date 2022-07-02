@@ -22,20 +22,20 @@ Primary.args = {
   label: 'Avatars',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Avatars',
-};
+// export const Secondary = Template.bind({});
+// Secondary.args = {
+//   label: 'Avatars',
+// };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Avatars',
-};
+// export const Large = Template.bind({});
+// Large.args = {
+//   size: 'large',
+//   label: 'Avatars',
+// };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Avatars',
-};
+// export const Small = Template.bind({});
+// Small.args = {
+//   size: 'small',
+//   label: 'Avatars',
+// };
 

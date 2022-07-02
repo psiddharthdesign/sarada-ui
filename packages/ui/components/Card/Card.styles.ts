@@ -27,37 +27,42 @@ const CardContainer = styled.div`
 `
 
 const CardCategory = styled.h3`
-    color: #3538CD;
-    font-size: 10px;
-    font-weight: bold;
     text-transform: uppercase;
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
     line-height: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    letter-spacing: 0.15px;
+/* identical to box height, or 100% */
+
+letter-spacing: 0.56px;
+
+/* Indigo/indigo.70 */
+
+color: #3538CD;
+
     margin-bottom: 8px;
 `
 
 const CardTitle = styled.h2`
-    color: black;
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 500;
     font-size: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 27px;
     letter-spacing: -0.6px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px 0px 8px 0px;
 `
 
 
 const CardBody = styled.p`
-    display: flex;
-    flex-direction:column;
-    flex: 1 1 auto;
-    min-height: 1px;
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 125%;
-    margin-top: 8px;
+    letter-spacing: 0px;
+    margin: 0px;
 `
 const CardImage = styled.div`
     background-image: url(https://images.unsplash.com/photo-1598331668826-20cecc596b86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80);

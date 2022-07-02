@@ -13,6 +13,14 @@ const SmBaseButton = styled.button`
     display: inline-block;
     color: white;
     border: none;
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: -0.5px;
     padding: 8px 16px;
     border-radius: 4px;
     transition: all 0.2s ease;
@@ -42,6 +50,12 @@ const SmOutlineButton = styled.button`
     border: 1px solid #3538CD;
     background:#ffffff;
     color: black;
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    letter-spacing: -0.5px;
     display: inline-block;
     padding: 8px 16px;
     border-radius: 4px;
@@ -54,7 +68,6 @@ const SmOutlineButton = styled.button`
         border: 2px solid #3538CD;
     }
 `
-
 
 export const ButtonLayout = Object.assign({}, {
     SmOutlineButton,

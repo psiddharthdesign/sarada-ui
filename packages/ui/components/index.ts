@@ -2,7 +2,9 @@ export * from "./Card";
 export * from "./Modal";
 export * from './Button'
 export * from './Avatars'
-export * from './Progress Bars'
+export * from './ProgressBars'
 export * from './ListInput'
 export * from './Input'
+export * from './Pagination'
+export * from './Table'
 export * from './Checkbox'

@@ -18,10 +18,12 @@ const ListInputDiv = styled.div`
 `
 
 const ListInputText = styled.p`
-    color: #6172F3;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
+    color: #6172F3;
     margin: 0px;
 `
 

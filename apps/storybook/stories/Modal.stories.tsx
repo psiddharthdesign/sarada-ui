@@ -22,19 +22,19 @@ Primary.args = {
   label: 'Modal',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Modal',
-};
+// export const Secondary = Template.bind({});
+// Secondary.args = {
+//   label: 'Modal',
+// };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Modal',
-};
+// export const Large = Template.bind({});
+// Large.args = {
+//   size: 'large',
+//   label: 'Modal',
+// };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Modal',
-};
+// export const Small = Template.bind({});
+// Small.args = {
+//   size: 'small',
+//   label: 'Modal',
+// };

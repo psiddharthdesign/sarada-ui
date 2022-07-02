@@ -22,19 +22,19 @@ Primary.args = {
   label: 'Input',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Input',
-};
+// export const Secondary = Template.bind({});
+// Secondary.args = {
+//   label: 'Input',
+// };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Input',
-};
+// export const Large = Template.bind({});
+// Large.args = {
+//   size: 'large',
+//   label: 'Input',
+// };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Input',
-};
+// export const Small = Template.bind({});
+// Small.args = {
+//   size: 'small',
+//   label: 'Input',
+// };

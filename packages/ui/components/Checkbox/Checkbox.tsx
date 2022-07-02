@@ -2,8 +2,9 @@ import { CheckboxLayout } from "./Checkbox.styles"
 
 export const Checkbox = () => {
     return <CheckboxLayout.CheckboxContainer>
-            <CheckboxLayout.CheckboxTitle>Share with People</CheckboxLayout.CheckboxTitle>
-            <CheckboxLayout.CheckboxText>Malesuada amet auctor sollicitudin ipsum pellentesque nulla enim nisi, tincidunt. Eleifend in tincidunt </CheckboxLayout.CheckboxText>
+            <CheckboxLayout.Checkbox1 type="checkbox" />
+            <CheckboxLayout.CheckboxTitle>Keep me Signed In</CheckboxLayout.CheckboxTitle>
+            
         </CheckboxLayout.CheckboxContainer>
 }
 

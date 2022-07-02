@@ -1,30 +1,33 @@
 import styled from 'styled-components'
 
-const CheckboxTitle = styled.h3`
-    color: black;
-`
 
 const CheckboxContainer = styled.div`
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  border-radius: 3px;
-  transition: all 150ms;
-`
-const CheckboxText = styled.p`
     display: flex;
-    flex-direction:column;
-    flex: 1 1 auto;
-    min-height: 1px;
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    padding: 64px;
+`
+
+const CheckboxTitle = styled.h3`
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 125%;
-    margin-top: 8px;
+    letter-spacing: -0.5px;
+`
+
+const Checkbox1 = styled.input`
+    width: 16px;
+    height: 16px;
+    border: 1px solid #000;
+    background-color: red;
 `
 
 export const CheckboxLayout = Object.assign({},{
     CheckboxTitle,
     CheckboxContainer,
-    CheckboxText
+    Checkbox1
 })

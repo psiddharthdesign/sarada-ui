@@ -22,19 +22,19 @@ Primary.args = {
   label: 'Card',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Card',
-};
+// export const Secondary = Template.bind({});
+// Secondary.args = {
+//   label: 'Card',
+// };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Card',
-};
+// export const Large = Template.bind({});
+// Large.args = {
+//   size: 'large',
+//   label: 'Card',
+// };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Card',
-};
+// export const Small = Template.bind({});
+// Small.args = {
+//   size: 'small',
+//   label: 'Card',
+// };
